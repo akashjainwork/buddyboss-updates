@@ -22,6 +22,25 @@ Add Below CSS under your buddyboss child theme
 }
 ```
 
+New Update
+```
+/*Buddy Panel AUTO SHOW/HIDE FIX IF MENU ITEMS ON TOP PANEL ARE MORE THAN 7 */
+jQuery('.buddypanel').mouseenter(function () {
+       jQuery('.bb-toggle-panel').click();
+     });
+
+ jQuery('.buddypanel').mouseleave(function () {
+       jQuery('.bb-toggle-panel').click();
+     }
+ ).mouseleave();
+```
+
+
 #### Preview 
 ![](/screenshot-auto-show-hide-buddypanel.gif)
+
+
+### 2. BuddyPress Widget for My Group Option with Group Type filter
+
+> Find Attached File Here bp_my_group.php
 
